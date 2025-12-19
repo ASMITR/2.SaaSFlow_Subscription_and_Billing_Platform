@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-quantum-black text-white font-futuristic;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-glass-gradient backdrop-blur-glass border border-glass-border shadow-glass;
+  }
+  
+  .aurora-text {
+    @apply bg-aurora-gradient bg-clip-text text-transparent;
+  }
+  
+  .glow-effect {
+    @apply shadow-neon;
+  }
+  
+  .quantum-bg {
+    @apply bg-quantum-gradient;
+  }
+}
